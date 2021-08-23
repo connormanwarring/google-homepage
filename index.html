@@ -4,10 +4,11 @@
 nav {
     width: 100%;
     display: flex;
-    background-color: rgba(217,210,217,0.9);
+   /* background-color: rgba(217,210,217,0.9); */
     flex-direction: row;
     flex-flow: wrap;
     justify-content: left;
+    margin: 0 -5px;
 
 }
 #item {
@@ -38,6 +39,11 @@ a {
     text-align: center
     padding: 14px 16px;
 }
+nav a{
+    margin: 1px;
+    /*background-color: rgba(217,210,217,0.9); */
+    width: 5em;
+}
 </style>
 
 <header> 
@@ -49,7 +55,6 @@ a {
     <a href="#news">News</a>
     <a href="#shopping">Shopping</a>
     <a href="#gmail">Gmail</a>
-    <a href="#more">more</a>
     <select>
         <option value="more">more</option>
     </select>
